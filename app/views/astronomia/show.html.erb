@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @astronomium.Nombre %>
+</p>
+
+<p>
+  <strong>Categoria:</strong>
+  <%= @astronomium.Categoria %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @astronomium.Descripcion %>
+</p>
+
+<%= link_to 'Editar', edit_astronomium_path(@astronomium) %> |
+<%= link_to 'Volver', astronomia_path %>
